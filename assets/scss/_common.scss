@@ -1,0 +1,77 @@
+html {
+  overflow-y: scroll;
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: $font-main;
+}
+
+a {
+  color: $base-color;
+  transition: color 0.5s;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $accent-color;
+  }
+}
+
+section {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 40px 0;
+  font-family: "PT Serif", serif;
+  
+
+  &::after {
+    position: absolute;
+    width: 100%;
+    margin: 0.85em 0 0 15px;
+    content: "";
+    border-bottom: 3px solid rgba(240, 173, 78, 0.7);
+  }
+}
+
+h2 {
+  margin: 50px 0 40px 40px;
+  font-family: "PT Serif", serif;
+  font-size: 2.5rem;
+
+  &::after {
+    position: absolute;
+    width: 100%;
+    margin: 0.85em 0 0 15px;
+    content: "";
+    border-bottom: 3px solid rgba(240, 173, 78, 0.7);
+  }
+
+  &::before {
+    position: absolute;
+    left: 0;
+    width: 25px;
+    margin: 0.25em 0 0 0;
+    content: "";
+    border-bottom: 3px solid rgba(240, 173, 78, 0.9);
+  }
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  margin: 0 0 10px;
+}
