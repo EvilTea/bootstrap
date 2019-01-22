@@ -181,6 +181,10 @@ p {
   margin-bottom: 15px;
 }
 
+.main .panel-search {
+  margin: 40px 0 20px 0;
+}
+
 .new-films-item {
   padding-left: 7.5px;
   padding-right: 7.5px;
